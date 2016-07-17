@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/classic_picture_one"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView"
+                android:layout_alignRight="@+id/mImageView"
+                android:layout_alignTop="@+id/mImageView"
+                android:layout_alignBottom="@+id/mImageView"
+                android:background="@drawable/gradient_article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView"
+                android:layout_alignRight="@+id/mImageView"
+                android:layout_alignTop="@+id/mImageView"
+                android:layout_alignBottom="@+id/mImageView"
+                android:gravity="bottom|left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:text="The Lord of the Rings is an epic high-fantasy novel written by English author J. R. R. Tolkien."
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView"
+                android:layout_alignRight="@+id/mImageView"
+                android:layout_alignTop="@+id/mImageView"
+                android:layout_alignBottom="@+id/mImageView"
+                android:gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:text="Přidáno před 2 dny"
+                android:textColor="@color/text_light_gray"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/classic_picture_two"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView2"
+                android:layout_alignRight="@+id/mImageView2"
+                android:layout_alignTop="@+id/mImageView2"
+                android:layout_alignBottom="@+id/mImageView2"
+                android:background="@drawable/gradient_article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView2"
+                android:layout_alignRight="@+id/mImageView2"
+                android:layout_alignTop="@+id/mImageView2"
+                android:layout_alignBottom="@+id/mImageView2"
+                android:gravity="bottom|left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:text="The Lord of the Rings"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView2"
+                android:layout_alignRight="@+id/mImageView2"
+                android:layout_alignTop="@+id/mImageView2"
+                android:layout_alignBottom="@+id/mImageView2"
+                android:gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:text="Přidáno před 4 dny"
+                android:textColor="@color/text_light_gray"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/classic_picture_three"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView3"
+                android:layout_alignRight="@+id/mImageView3"
+                android:layout_alignTop="@+id/mImageView3"
+                android:layout_alignBottom="@+id/mImageView3"
+                android:background="@drawable/gradient_article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView3"
+                android:layout_alignRight="@+id/mImageView3"
+                android:layout_alignTop="@+id/mImageView3"
+                android:layout_alignBottom="@+id/mImageView3"
+                android:gravity="bottom|left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:text="The work was initially intended by Tolkien to be one volume of a two-volume set"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView3"
+                android:layout_alignRight="@+id/mImageView3"
+                android:layout_alignTop="@+id/mImageView3"
+                android:layout_alignBottom="@+id/mImageView3"
+                android:gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:text="Přidáno před 7 dny"
+                android:textColor="@color/text_light_gray"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/classic_picture_four"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView4"
+                android:layout_alignRight="@+id/mImageView4"
+                android:layout_alignTop="@+id/mImageView4"
+                android:layout_alignBottom="@+id/mImageView4"
+                android:background="@drawable/gradient_article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView4"
+                android:layout_alignRight="@+id/mImageView4"
+                android:layout_alignTop="@+id/mImageView4"
+                android:layout_alignBottom="@+id/mImageView4"
+                android:gravity="bottom|left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:text="Tolkien's work has been the subject of extensive analysis of its themes and origins. "
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView4"
+                android:layout_alignRight="@+id/mImageView4"
+                android:layout_alignTop="@+id/mImageView4"
+                android:layout_alignBottom="@+id/mImageView4"
+                android:gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:text="Přidáno před 13 dny"
+                android:textColor="@color/text_light_gray"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mImageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/classic_picture_five"
+                android:adjustViewBounds="true"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView5"
+                android:layout_alignRight="@+id/mImageView5"
+                android:layout_alignTop="@+id/mImageView5"
+                android:layout_alignBottom="@+id/mImageView5"
+                android:background="@drawable/gradient_article"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView5"
+                android:layout_alignRight="@+id/mImageView5"
+                android:layout_alignTop="@+id/mImageView5"
+                android:layout_alignBottom="@+id/mImageView5"
+                android:gravity="bottom|left"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:text="Thousands of years before the events of the novel"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/mImageView5"
+                android:layout_alignRight="@+id/mImageView5"
+                android:layout_alignTop="@+id/mImageView5"
+                android:layout_alignBottom="@+id/mImageView5"
+                android:gravity="bottom|left"
+                android:layout_margin="16dp"
+                android:text="Přidáno před 15 dny"
+                android:textColor="@color/text_light_gray"
+                android:textSize="12sp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

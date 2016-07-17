@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#533096</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="colorGray">#D6D6D6</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="tabIndicator">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorInboxBackground">#ECECEC</color>
+    <color name="headerInbox">#818181</color>
+
+
+    <color name="text">#737373</color>
+    <color name="text_light_gray">#BFBFBF</color>
+
+    // Pozadí při stisknutí karty
+    <color name="cardPressed">#F6F6F6</color>
+    // Spodní okraj u karet
+    <color name="cardBorder">#E5E5E5</color>
+</resources>

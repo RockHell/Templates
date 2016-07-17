@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Templates JP</string>
+
+    <!-- Tituly -->
+    <string name="title_login">Přihlášení</string>
+    <string name="title_tabs">Taby</string>
+    <string name="title_error">Chyb. stránka</string>
+    <string name="title_article">Články</string>
+    <string name="title_article_detail">Detail článku</string>
+    <string name="title_database">Databáze</string>
+    <string name="title_files">Soubory</string>
+    <string name="title_layout">Změna vzhledu</string>
+    <string name="title_show_error">SnackBar | Toast</string>
+    <string name="title_other">Ostatní</string>
+
+    <string name="title_help">Nápověda</string>
+    <string name="title_settings">Nastavení</string>
+    <string name="title_about_app">O aplikaci</string>
+
+    <!-- Menu -->
+    <string name="action_help">Nápověda</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_about_app">O aplikaci</string>
+    <string name="action_layout">Změna vzhledu</string>
+
+    <!-- O aplikaci -->
+    <string name="app_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</string>
+    <string name="google_play_button">PŘEJÍT NA GOOGLE PLAY</string>
+    <string name="aboutapp_changelog">Seznam změn</string>
+    <string name="aboutapp_changelog_detail">Klikněte zde pro zobrazení všech změn.</string>
+    <string name="version">Templates JP verze 1.0</string>
+    <string name="version_date">Datum 11.06.2016</string>
+    <string name="copyright">Copyright © 2016</string>
+    <string name="author_name">Jan Petrskovský</string>
+
+    <string name="ok">OK</string>
+    <string name="version_1_0">Verze 1.0</string>
+    <string name="changelog_1_0">Start aplikace dne 11.06.2016.</string>
+
+    <!-- Nastavení -->
+    <string name="settings_1">Zámek obrazovky</string>
+    <string name="settings_2">Šifrovaní</string>
+    <string name="settings_3">Zapnuto</string>
+    <string name="settings_4">Zámek SIM karty</string>
+    <string name="settings_5">Nastavit zámek SIM karty</string>
+    <string name="settings_6">Hesla</string>
+    <string name="settings_7">Zobrazovat hesla</string>
+    <string name="settings_8">Úložiště pověření</string>
+    <string name="settings_9">Typ úložiště</string>
+    <string name="settings_10">Dlouhá věta, která má zaplnit alespoň 3 řádky.\nCílem je ukázat,\nže maximum jsou 3 řádky a ukážou se tečky. Proto dále píšu a píšu a píšu. Už fakt nevím co dál</string>
+    <string name="settings_11">Důvěryhodná pověření</string>
+    <string name="settings_12">Zobrazit důvěryhodné certifikáty CA</string>
+    <string name="settings_13">Interní úložiště</string>
+    <string name="settings_14">Použito 8,48 GB z 12,55 GB</string>
+    <string name="settings_15">Hlasitost vyzvánění</string>
+    <string name="settings_16">Hlasitost médií</string>
+    <string name="settings_17">Doporučuje se 20/50</string>
+
+
+    <string name="article_detail_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ex dolor. Quisque ut sapien eget dui sodales gravida. Morbi nibh tortor, tempor gravida ullamcorper sed, gravida eget ipsum. Donec facilisis faucibus tortor, ac facilisis turpis tempus eu. Ut pretium risus quis cursus condimentum. Donec dignissim egestas mauris eu vehicula. In mattis bibendum ipsum at elementum. Nullam quis lobortis magna. Vivamus a nibh velit. Maecenas erat leo, dapibus porttitor viverra et, finibus rutrum nisl. Morbi sapien risus, vehicula nec maximus nec, viverra vitae purus. Nulla efficitur orci id erat efficitur imperdiet. Donec malesuada dolor in ipsum vestibulum, vel mattis mi blandit. Ut accumsan sit amet odio a suscipit. Sed eget ante vel enim dictum pellentesque. Duis convallis vulputate eros, a pharetra urna vehicula euismod. Sed sodales leo nec quam pellentesque dapibus.</string>
+    <string name="article_detail_2">12.06.2016, 09:34</string>
+    <string name="article_detail_3">Jan Petrskovský</string>
+    <string name="article_detail_4">• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ex dolor.\n\n• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ex dolor.\n\n• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ex dolor.\n\n• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a ex dolor.\n\n</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

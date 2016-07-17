@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorInboxBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Datum -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tento měsíc"
+            android:background="@color/colorInboxBackground"
+            android:textColor="@color/headerInbox"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- OBAL -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- KARTA -->
+            <LinearLayout
+                android:id="@+id/llp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/halfcard_selector">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="@drawable/circle"
+                    android:padding="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="top|left" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Michal Dlouhý | Jobs.cz"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text"
+                        android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                        android:singleLine="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- KONEC KARTA -->
+
+        </android.support.v7.widget.CardView>
+        <!-- KONEC OBAL -->
+
+        <!-- OBAL -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- KARTA -->
+        <LinearLayout
+            android:id="@+id/llp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/halfcard_selector">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:background="@drawable/circle"
+                android:padding="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="top|left" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Michal Dlouhý | Jobs.cz"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/text"
+                    android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- KONEC KARTA -->
+
+        </android.support.v7.widget.CardView>
+        <!-- KONEC OBAL -->
+
+        <!-- OBAL -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- KARTA -->
+        <LinearLayout
+            android:id="@+id/llp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/halfcard_selector">
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:src="@drawable/ic_arrow_back_white_24dp"
+                android:background="@drawable/circle"
+                android:padding="8dp"
+                android:layout_marginRight="16dp"
+                android:layout_gravity="top|left" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical|center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorBlack"
+                    android:text="Michal Dlouhý | Jobs.cz"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/text"
+                    android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                    android:singleLine="true"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!-- KONEC KARTA -->
+
+        </android.support.v7.widget.CardView>
+        <!-- KONEC OBAL -->
+
+        <!-- Datum -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Květen"
+            android:background="@color/colorInboxBackground"
+            android:textColor="@color/headerInbox"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- OBAL -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- KARTA -->
+            <LinearLayout
+                android:id="@+id/llp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/halfcard_selector">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="@drawable/circle"
+                    android:padding="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="top|left" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Michal Dlouhý | Jobs.cz"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text"
+                        android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                        android:singleLine="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- KONEC KARTA -->
+
+            </android.support.v7.widget.CardView>
+            <!-- KONEC OBAL -->
+
+            <!-- OBAL -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <!-- KARTA -->
+            <LinearLayout
+                android:id="@+id/llp5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/halfcard_selector">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="@drawable/circle"
+                    android:padding="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="top|left" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Michal Dlouhý | Jobs.cz"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text"
+                        android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                        android:singleLine="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- KONEC KARTA -->
+
+        </android.support.v7.widget.CardView>
+        <!-- KONEC OBAL -->
+
+        <!-- Datum -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Březen"
+            android:background="@color/colorInboxBackground"
+            android:textColor="@color/headerInbox"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- OBAL -->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- KARTA -->
+            <LinearLayout
+                android:id="@+id/llp6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/halfcard_selector">
+
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="@drawable/circle"
+                    android:padding="8dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_gravity="top|left" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical|center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="10 pozic, kde vám dají volnou pracovní pozici. Stále více firem láká na volnou pracovní pozici."
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorBlack"
+                        android:text="Michal Dlouhý | Jobs.cz"
+                        android:singleLine="true"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/text"
+                        android:text="Stále více firem láká na volnou pracovní pozici. A tak dále co to jde."
+                        android:singleLine="true"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <!-- KONEC KARTA -->
+
+        </android.support.v7.widget.CardView>
+        <!-- KONEC OBAL -->
+
+    </LinearLayout>
+
+</ScrollView>

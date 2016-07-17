@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_account_circle_black_48dp"
+            android:title="@string/title_login" />
+        <item
+            android:id="@+id/nav_tabs"
+            android:icon="@drawable/ic_view_compact_black_48dp"
+            android:title="@string/title_tabs" />
+        <item
+            android:id="@+id/nav_error"
+            android:icon="@drawable/ic_error_black_48dp"
+            android:title="@string/title_error" />
+        <item
+            android:id="@+id/nav_article"
+            android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
+            android:title="@string/title_article" />
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_archive_black_24dp"
+            android:title="@string/title_database" />
+        <item
+            android:id="@+id/nav_files"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:title="@string/title_files" />
+    </group>
+
+    <item android:title="Next">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_layout"
+                android:icon="@drawable/ic_web_black_48dp"
+                android:title="@string/title_layout" />
+            <item
+                android:id="@+id/nav_show_error"
+                android:icon="@drawable/ic_announcement_black_48dp"
+                android:title="@string/title_show_error" />
+            <item
+                android:id="@+id/nav_other"
+                android:icon="@drawable/ic_child_care_black_48dp"
+                android:title="@string/title_other" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
